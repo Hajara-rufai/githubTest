@@ -1,0 +1,195 @@
+ /* *{
+ margin: 0%;
+ padding: 0%;
+}
+
+body{
+ background-color: #55ffef;
+font-size: 14px;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background-color: white;
+    display: flex;
+
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: purple;
+    color: white;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 40px;
+
+}
+
+.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+ 
+
+
+ .static{
+    border: 1px solid black;
+    position: static;
+ }
+
+ .relative{
+    border: 1px solid black;
+    position: relative;
+    top: 50px;
+    left:50px;
+ }
+
+ .fixed{
+    border: 1px solid black;
+    position: fixed;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+
+ }
+
+ .container{
+    position: relative;
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+ }
+
+ .absolute{
+    border: 1px solid black;
+    height: 80px;
+    width: 120px;
+    position: absolute;
+    right:0;
+ }
+
+ .sticky1{
+    border: 1px solid black;
+    background-color: rgb(140, 205, 252);
+    color: rgb(11, 11, 54);
+    position: sticky;
+    top: 0;
+ }
+
+ .sticky2{
+    border: 1px solid black;
+    background-color: rgb(140, 205, 252);
+    color: white;
+    position: sticky;
+    top: 0;
+ }
+  
+
+  div ~ p{
+    background-color: yellow;
+  }
+button{
+    background-color: rgb(165, 242, 165);
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: none;
+} */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1000px;
+    height: 700px;
+    border: 2px solid black;
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+
+
+}
+
+.col-left{
+    flex: 2;
+    border-radius: 2em;
+    flex-direction: column;
+    gap: 1em;
+    display: flex;
+
+}
+.col-right{
+    
+    flex: 1;
+    border-radius: 2em;
+    flex-direction: column;
+    gap: 1em;
+    display: flex;
+
+}
+
+.row{
+
+    border-radius: 1em;
+    flex: 1;
+}
+
+.row3{
+    display: flex;
+    gap: 1em;
+    border: none;
+
+}
+.row-col {
+    flex: 1;
+   
+    border-radius: 2em;
+}
+.top{
+    background-color: maroon;
+}
+
+.bottom{
+    background-color: blue;
+}
+.left{
+    background-color: blueviolet;
+}
+.right{
+    background-color: pink;
+}
+.row1{
+    background-color: green;
+}
+.row2{
+    background-color: yellow;
+}

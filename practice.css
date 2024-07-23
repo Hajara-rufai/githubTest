@@ -1,0 +1,40 @@
+ body {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: rgb(154, 154, 154);
+    flex-direction: column;
+    margin: 0;
+}
+
+.chatrow {
+    display: inline;
+    box-sizing: border-box;
+
+
+}
+.names{
+    float: none;
+}
+
+.chat-timecol-3{
+    float: right;
+}
+
+.container{
+    background-color: rgb(232, 229, 229);
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 500px;
+    text-align: left;
+}
+
+input{
+    padding: 15px;
+    border-radius: 50px;
+
+}
+ 
